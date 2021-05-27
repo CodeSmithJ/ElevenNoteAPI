@@ -68,7 +68,8 @@ namespace ElevenNote.Services
                             NoteId = entity.NoteId,
                             Title = entity.Title,
                             Content = entity.Content,
-                            CreatedUtc = entity.CreatedUtc
+                            CreatedUtc = entity.CreatedUtc,
+                            ModifiedUtc = entity.ModifiedUtc
                         };
             }
         }
